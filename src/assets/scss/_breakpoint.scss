@@ -1,0 +1,128 @@
+@import "variable";
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    .search {
+      margin-top: 15px;
+    }
+  }
+  .Main-content {
+    .MenuContent {
+      grid-template-columns: repeat(4, 1fr);
+      .images {
+        img {
+          border-radius: 8px;
+        }
+      }
+      .tittle {
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+    .VoucherMenu {
+      .VoucherItems {
+        grid-template-columns: repeat(4, 1fr);
+
+        .items {
+          .images {
+            img {
+              border-radius: 8px;
+            }
+          }
+          .tittle {
+            p {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Footer
+}
+
+@media screen and (max-width: 768px) {
+  .Main-content {
+    h3 {
+      font-size: 1.2em;
+    }
+    .MenuContent {
+      grid-template-columns: repeat(3, 1fr);
+
+      .images {
+        img {
+          border-radius: 8px;
+        }
+      }
+      .tittle {
+        p {
+          font-size: 0.8em;
+        }
+      }
+    }
+    .VoucherMenu {
+      h3 {
+        font-size: 1.2em;
+      }
+      .VoucherItems {
+        grid-template-columns: repeat(3, 1fr);
+
+        .items {
+          .images {
+            img {
+              border-radius: 8px;
+            }
+          }
+          .tittle {
+            p {
+              font-size: 0.8em;
+            }
+          }
+        }
+      }
+    }
+  }
+  .Carousel {
+    margin-top: 10vh;
+  }
+
+  footer {
+    .footer-1 {
+      margin: 0;
+      padding: 0;
+    }
+    .j-center {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .footer-line {
+      display: block;
+      color: map-get($global, "light");
+    }
+    .p-ico {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      li {
+        img {
+          width: 40px;
+        }
+      }
+    }
+    .footer-3 {
+      position: relative;
+
+      img {
+        width: 150px;
+        position: absolute;
+        right: 0;
+        top: -330px;
+      }
+    }
+  }
+}
