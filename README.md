@@ -1,4 +1,4 @@
-References From [ximpay store](https://github.com/facebook/create-react-app)
+References From [ximpay store](https://store.ximpay.com/)
 
 # Getting Started with Create React App
 
