@@ -1,4 +1,4 @@
-References From [ximpay store](https://store.ximpay.com/)
+References From <a href="https://store.ximpay.com/" target="_blank">ximpay store</a>
 
 # Getting Started with Create React App
 
